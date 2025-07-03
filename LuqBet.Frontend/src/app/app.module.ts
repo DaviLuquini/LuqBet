@@ -3,10 +3,11 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { HeaderComponent } from './header/header.component';
-import { CustomButtonComponent } from './custom-button/custom-button.component';
-import { HeroCardComponent } from './hero-card/hero-card.component';
-import { CardComponent } from './card/card.component';
+import { GameCardComponent } from './components/game-card/game-card.component';
+import { CustomButtonComponent } from './components/custom-button/custom-button.component';
+import { HeaderComponent } from './components/header/header.component';
+import { HeroCardComponent } from './components/hero-card/hero-card.component';
+
 
 @NgModule({
   declarations: [
@@ -14,7 +15,7 @@ import { CardComponent } from './card/card.component';
     HeaderComponent,
     CustomButtonComponent,
     HeroCardComponent,
-    CardComponent,
+    GameCardComponent,
   ],
   imports: [
     BrowserModule,

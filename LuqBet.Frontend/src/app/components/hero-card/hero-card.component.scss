@@ -5,9 +5,11 @@
     width: 85vw;
     box-sizing: border-box;
     border-radius: 10px;
-    background-image: url('../../assets/images/cassino_ilustrativo.webp');
+    background-image:
+        linear-gradient(to right, rgba(0, 0, 0, 0.95) 40%, rgba(0, 0, 0, 0) 70%),
+        url('../../../assets/images/cassino-background.png');
 
-    background-size: contain;
+    background-size: 100%;
     background-position: center;
     background-repeat: no-repeat;
 }
