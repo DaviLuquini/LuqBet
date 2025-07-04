@@ -1,0 +1,14 @@
+@import 'variables';
+
+.game-container {
+    width: 83.1vw;
+    height: 102.8vh;
+    background-color: $--color-dark-800;
+    border-radius: $--container-radius;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}

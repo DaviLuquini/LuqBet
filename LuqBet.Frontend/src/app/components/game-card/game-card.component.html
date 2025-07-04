@@ -1,4 +1,3 @@
-<div class="game-card">
-    <p>{{ cardTitle }}</p>
-    <!-- <img src="{{ imageSrc }}" alt="{{ imageAlt }}"> -->
-</div>
+<button class="game-card" [style.backgroundImage]="'url(' + imageSrc + ')'">
+  <p>{{ cardTitle }}</p>
+</button>

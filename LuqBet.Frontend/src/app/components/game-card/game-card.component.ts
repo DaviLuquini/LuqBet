@@ -7,6 +7,5 @@ import { Component, Input } from '@angular/core';
 })
 export class GameCardComponent {
   @Input({ required: true }) cardTitle: string = "";
-  // @Input({ required: true }) imageSrc: string = "";
-  // @Input({ required: true }) imageAlt: string = "";
+  @Input({ required: true }) imageSrc: string = "";
 }

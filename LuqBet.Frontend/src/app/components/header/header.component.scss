@@ -10,13 +10,13 @@
 
 
     width: 100%;
-    max-height: 118px;
+    max-height: 75px;
 }
 
 .logo-container {
     display: flex;
     flex-direction: row;
-    max-width: 30%;
+    max-width: 5%;
     gap: 10px;
     margin-left: 3%;
     align-items: center;
@@ -24,24 +24,10 @@
     color: white;
     font-size: 25px;
     font-weight: 500;
+    cursor: pointer;
 }
 
 #casino-logo {
-    max-width: 20%;
-}
-
-.login-container {
-    display: flex;
-    flex-direction: row;
-    gap: 30px;
-    margin-right: 3%;
-    justify-content: center;
-    align-items: center;
-}
-
-#login-enter {
-    color: white;
-    font-weight: 500;
-    cursor: pointer;
+    max-width: 100%;
 }
 
