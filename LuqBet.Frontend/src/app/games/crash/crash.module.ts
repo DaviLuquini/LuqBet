@@ -6,7 +6,6 @@ import { CrashComponent } from './components/crash/crash.component';
 import { GamesModule } from "../games.module";
 
 
-
 @NgModule({
   declarations: [
     CrashGameComponent,

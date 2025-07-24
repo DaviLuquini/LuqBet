@@ -1,0 +1,22 @@
+@import 'variables';
+
+.card-multiplier {
+    height: 5vh;
+    width: 100%;
+    border-radius: $--container-radius;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-dark {
+    background-color: $--color-dark-700;
+    color: $--color-gray-400; 
+}
+
+.card-green {
+    background-color: $--color-green-500;
+    color: white;
+}

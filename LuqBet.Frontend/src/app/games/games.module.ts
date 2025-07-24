@@ -16,7 +16,8 @@ import { CardMultiplierComponent } from './components/card-multiplier/card-multi
   exports: [
     GameContainerComponent,
     PlaceBetComponent,
-    GameSummaryComponent
+    GameSummaryComponent,
+    CardMultiplierComponent
   ],
   imports: [CommonModule]
 })

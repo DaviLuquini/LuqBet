@@ -11,6 +11,8 @@ import { GameCardComponent } from './components/game-card/game-card.component';
 import { GamesModule } from './games/games.module';
 import { CrashModule } from './games/crash/crash.module';
 import { LandingComponent } from './components/landing/landing.component';
+import { LandingLayoutComponent } from './components/layouts/landing-layout/landing-layout.component';
+import { GameLayoutComponent } from './components/layouts/game-layout/game-layout.component';
 
 @NgModule({
   declarations: [
@@ -19,6 +21,8 @@ import { LandingComponent } from './components/landing/landing.component';
     HeroCardComponent,
     GameCardComponent,
     LandingComponent,
+    LandingLayoutComponent,
+    GameLayoutComponent,
   ],
   imports: [
     BrowserModule,

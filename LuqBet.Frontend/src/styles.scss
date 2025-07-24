@@ -6,19 +6,28 @@
     font-family: "Rubik", sans-serif !important;
 }
 
+html,
 body {
+    height: 100%;
+    width: 100%;
     background-color: $--color-grey-body-bg;
     margin: 0;
     padding: 0;
 }
 
-.layout  {
+
+.layout {
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 100%;
     height: 100%;
+}
+
+.layout-landing {
     gap: 15px;
 }
 
-
+.layout-games {
+    gap: 6px;
+}

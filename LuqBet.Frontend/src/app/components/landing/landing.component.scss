@@ -1,4 +1,21 @@
-.cardGames {
+.hero {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.games-title {
+    display: flex;
+    color: white;
+    justify-content: flex-start;
+    width: 100%;
+    gap: 4px;
+    margin-top: 25px;
+    position: relative;
+    top: 6px;
+}
+
+.card-games {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
     gap: 1.25vw;

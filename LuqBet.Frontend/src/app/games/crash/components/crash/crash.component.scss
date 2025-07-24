@@ -1,0 +1,14 @@
+.layout-crash {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.card-multipliers {
+    width: 95%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    gap: 1.25vw;
+    align-items: center; 
+    justify-content: center;
+}
