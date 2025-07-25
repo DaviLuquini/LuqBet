@@ -1,14 +1,11 @@
 <div class="layout-crash">
     <app-game-container>
         <div class="card-multipliers">
-            <app-card-multiplier [multiplierNumber]="10"></app-card-multiplier>
-            <app-card-multiplier [multiplierNumber]="7.02"></app-card-multiplier>
-            <app-card-multiplier [multiplierNumber]="6.5"></app-card-multiplier>
-            <app-card-multiplier [multiplierNumber]="2"></app-card-multiplier>
-            <app-card-multiplier [multiplierNumber]="1.03"></app-card-multiplier>
-            <app-card-multiplier [multiplierNumber]="4"></app-card-multiplier>
+            <app-card-multiplier *ngFor="let multiplier of multipliers" [multiplierNumber]="multiplier">
+            </app-card-multiplier>
         </div>
-        <app-crash-game></app-crash-game>
+        <app-crash-game (multiplierReached)="onMultiplierReached($event)"></app-crash-game>
+        <app-place-bet></app-place-bet>
     </app-game-container>
     <app-game-summary></app-game-summary>
 </div>

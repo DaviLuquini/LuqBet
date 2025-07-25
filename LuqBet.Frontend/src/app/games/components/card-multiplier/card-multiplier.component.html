@@ -1,3 +1,3 @@
-<div class="card-multiplier" [ngClass]="isNumberHigh ? 'card-dark' : 'card-green'">
+<div class="card-multiplier" [ngClass]="multiplierNumber > 2 ? 'card-green' : 'card-dark'">
    <span>{{ multiplierNumber }}x</span>
 </div>

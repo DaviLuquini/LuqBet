@@ -6,6 +6,5 @@ import { Component, Input } from '@angular/core';
   styleUrl: './card-multiplier.component.scss'
 })
 export class CardMultiplierComponent {
-  isNumberHigh: boolean = false;
-  @Input({ required: true }) multiplierNumber: number = 0;
+  @Input({ required: true }) multiplierNumber!: number;
 }
