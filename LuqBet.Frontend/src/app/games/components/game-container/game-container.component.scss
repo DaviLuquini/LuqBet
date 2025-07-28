@@ -1,6 +1,6 @@
 @import 'variables';
 
-.game-container {
+:host {
     width: 83.1vw;
     height: 102.8vh;
     background-color: $--color-dark-800;

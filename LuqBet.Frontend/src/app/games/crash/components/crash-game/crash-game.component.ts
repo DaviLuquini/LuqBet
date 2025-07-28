@@ -13,6 +13,10 @@ export class CrashGameComponent {
   random: number = (Math.random() * (this.max - this.min) + this.min) ** 3.5;
   crashPoint: number = parseFloat(this.random.toFixed(2));
   @Output() multiplierReached = new EventEmitter<number>();
+  yLabels = ['5.2x', '4.4x', '3.2x', '2.0x', '1.2x'];
+  xLabels = ['0s', '5s', '10s', '15s', '20s'];
+
+  
 
   render = (multiplier: number) => {
     this.multiplier = parseFloat(multiplier.toFixed(2));

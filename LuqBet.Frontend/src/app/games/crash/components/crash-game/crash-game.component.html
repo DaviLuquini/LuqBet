@@ -1,4 +1,20 @@
-<div class="crash-game">
 <button (click)="startGame()">Iniciar Jogo</button>
-<p style="display: flex; align-items: center; justify-content: center; color: white; font-size: 50px;">Multiplicador: {{ multiplier }}</p>
+<!-- <p style="display: flex; align-items: center; justify-content: center; color: white; font-size: 50px;">
+        Multiplicador: {{ multiplier }}</p> -->
+
+<div class="crash-game">
+    <div class="chart-row">
+        <div class="y-axis">
+            <div class="y-label" *ngFor="let label of yLabels">{{ label }}</div>
+        </div>
+
+        <div class="chart-area">
+            <div class="middle-line"></div>
+            <!-- Gráfico animado -->
+        </div>
+    </div>
+
+    <div class="x-axis">
+        <div class="x-label" *ngFor="let label of xLabels">{{ label }}</div>
+    </div>
 </div>
