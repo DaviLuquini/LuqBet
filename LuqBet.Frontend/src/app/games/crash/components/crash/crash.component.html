@@ -7,5 +7,9 @@
         <app-crash-game (multiplierReached)="onMultiplierReached($event)"></app-crash-game>
         <app-place-bet></app-place-bet>
     </app-game-container>
-    <app-game-summary></app-game-summary>
+    <div class="game-summary">
+        <app-game-summary gameName="Crash">
+            <app-small-card></app-small-card>
+        </app-game-summary>
+    </div>
 </div>

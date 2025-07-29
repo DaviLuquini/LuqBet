@@ -2,14 +2,62 @@
 
 :host {
     width: 100%;
-    height: 50%;
-}
-
-.place-bet {
-    width: 100%;
-    height: 100%;
+    padding: 15px;
     justify-content: center;
     align-items: center;
     background-color: $--color-dark-750;
     border-radius: $--container-radius;
+    box-sizing: border-box;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+}
+
+.bet-amount {
+    width: 100%;
+}
+
+.bet-amount-input {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 10px;
+    border-radius: $--container-radius;
+    border: 0.5px solid rgba(255, 255, 255, 0.182);
+    width: 100%;
+    background-color: $--color-dark-750;
+    gap: 5px;
+}
+
+#place-amount {
+    background-color: transparent;
+    border: none;
+    width: 100%;
+    color: white;
+    font-size: 17px;
+
+    &:focus {
+        outline: none;
+        border: none;
+    }
+}
+
+#input-icon {
+    width: 35px;
+    height: 35px;
+    margin-top: 5px;
+}
+
+#place-bet-button {
+    width: 100%;
+    color: white;
+    font-size: 15px;
+    background-color: $--color-accent;
+    padding: 10px;
+    border-radius: $--container-radius;
+    border: none;
+    cursor: pointer;
 }

@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-game-summary',
@@ -6,5 +6,6 @@ import { Component } from '@angular/core';
   styleUrl: './game-summary.component.scss'
 })
 export class GameSummaryComponent {
+  @Input({ required: true }) gameName: string = 'Game';
 
 }
